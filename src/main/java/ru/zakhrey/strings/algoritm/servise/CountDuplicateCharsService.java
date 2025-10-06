@@ -1,12 +1,14 @@
 package ru.zakhrey.strings.algoritm.servise;
 
+import java.util.Map;
+
 public interface CountDuplicateCharsService {
 
     /**
      * Подсчет повторяющихся символов
-     * @param s трока
+     * @param s  - исходная строка с данными
      * @return количество повторяющихся символов
      */
-    int countDuplicateChars(final String s);
+    Map<Character, ? extends Number> countDuplicateCharacters(final String s);
 
 }
