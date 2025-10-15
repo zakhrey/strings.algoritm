@@ -16,9 +16,9 @@ public class TimeMetricCollector {
     private final List<Double> times;
 
     /**
-     * Класс для измерения времени подсчета повторяющихся символов
+     * Класс для измерения времени
      * @param consumer функция для измерения времени, зависящая от количества элементов
-     * @param countsList список количества символов в строках
+     * @param countsList список количества элементов для подстановки в consumer
      * @param dispersion дисперсия для замеров не одного вызова метода, а среднего между несколькими вызовами
      */
     public TimeMetricCollector(Consumer<Integer> consumer,
